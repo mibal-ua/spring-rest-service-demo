@@ -28,7 +28,7 @@ public class Sprint {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private Integer id;
 
     @Column(nullable = false)
     private String name;
