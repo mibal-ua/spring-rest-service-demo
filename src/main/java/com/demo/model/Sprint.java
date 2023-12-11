@@ -36,8 +36,10 @@ public class Sprint {
     @Column(nullable = false)
     private String goal;
 
+    @Column(name = "startdate")
     private LocalDateTime startDate;
 
+    @Column(name = "enddate")
     private LocalDateTime endDate;
 
     @ManyToOne(optional = false)
